@@ -1,4 +1,3 @@
-package Bit Magic;
 
 public class OddEven {
      static boolean isEven(int n) {
