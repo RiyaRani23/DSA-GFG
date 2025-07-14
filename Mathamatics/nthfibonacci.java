@@ -1,3 +1,4 @@
+package Mathamatics;
 public class nthfibonacci {
      public int nthFibonacci(int n) {
         // code here

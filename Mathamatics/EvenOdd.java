@@ -1,3 +1,4 @@
+package Mathamatics;
 import java.util.*;
 public class EvenOdd {
     public static boolean isEven(int n){

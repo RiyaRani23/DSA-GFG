@@ -1,3 +1,4 @@
+package Mathamatics;
  import java.util.*;
 public class PositiveNo {
      public static void main(String args[]){
