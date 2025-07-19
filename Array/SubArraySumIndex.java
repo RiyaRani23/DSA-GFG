@@ -2,7 +2,7 @@ package Array;
 
 import java.util.ArrayList;
 
-public class SubArraySum {
+public class SubArraySumIndex {
      static ArrayList<Integer> subarraySum(int[] arr, int target) {
        ArrayList <Integer> index = new ArrayList<>();
             int left=0, sum=0;
