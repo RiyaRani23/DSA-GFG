@@ -1,4 +1,4 @@
-package Array;
+
 
 public class SearchIndex {
     public static int searchIndex(int arr[],int key,int i){
