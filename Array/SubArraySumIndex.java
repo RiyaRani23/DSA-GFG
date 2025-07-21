@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public class SubArraySumIndex {
      static ArrayList<Integer> subarraySum(int[] arr, int target) {
        ArrayList <Integer> index = new ArrayList<>();
-            int left=0, sum=0;
+            int left=0;
+            int sum=0;
             for (int right=0 ; right<arr.length ; right++ ){
                 sum += arr[right];
                 while(sum > target && left<= right ){
