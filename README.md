@@ -66,7 +66,7 @@ Each folder contains:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/RiyaRani14/DSA-GFG.git
+   git clone https://github.com/RiyaRani23/DSA-GFG.git
    ```
 2. **Open in any Java IDE**
    - Recommended: IntelliJ IDEA / Eclipse / VSCode
@@ -87,7 +87,7 @@ Each folder contains:
 ## ✍️ Author
 
 - **Name**: Riya Rani
-- **GitHub Profile**: [RiyaRani14](https://github.com/RiyaRani14)
+- **GitHub Profile**: [RiyaRani23](https://github.com/RiyaRani23)
 - **LinkedIn**: [Riya Rani](www.linkedin.com/in/riya-rani-330943331)
 
 ---
