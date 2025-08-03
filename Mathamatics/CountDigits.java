@@ -12,6 +12,7 @@ public class CountDigits {
             }
             n = n/10;
         }
+        
         return count;
     }
 }
