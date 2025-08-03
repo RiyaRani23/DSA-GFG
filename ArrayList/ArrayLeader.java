@@ -4,6 +4,7 @@ public class ArrayLeader {
     static ArrayList<Integer> leaders(int arr[]) {
         ArrayList<Integer> leaders = new ArrayList<>();
         int n = arr.length;
+        // by Brute Force Method
 
         for (int i = 0; i < n; i++) {
             boolean isLeader = true;
