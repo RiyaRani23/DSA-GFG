@@ -1,3 +1,4 @@
+import java.util.*;
 public class TrainDeparture {
     // Function to find the minimum number of platforms required at the station
     static int findPlatform(int arr[], int dep[]) {
