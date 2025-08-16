@@ -8,7 +8,6 @@ public class MinimumPages {
         int minPages = 0, sum = 0 ;  
         
         for (int i = 0; i < n; i++){
-             minPages = Math.max(minPages, arr[i]);
             sum += arr[i];
         } 
         
