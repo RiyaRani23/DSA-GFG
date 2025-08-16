@@ -2,18 +2,27 @@ public class PeakElement {
      public int peakElement(int[] arr) {
         int n = arr.length;
 
-        if (n == 0) return -1; // No peak in empty array
-        if (n == 1) return 0;  // Only one element is always a peak
+        int start = 0 , end = n-1 ; 
+        
+        
+        while (start <= end){
+            int mid = (start + end )/2 ; 
 
-        for (int i = 0; i < n; i++) {
-            boolean left = (i == 0 || arr[i] > arr[i - 1]);
-            boolean right = (i == n - 1 || arr[i] > arr[i + 1]);
-
-            if (left && right) {
-                return i; 
+            if ( (mid==0 || arr [mid - 1] < arr[mid] ) &&
+                (mid == n-1 || arr[mid + 1] < arr[mid]) ){
+                    return mid;
             }
+            // move left half part
+            if (mid > 0 && arr[mid-1] > arr[mid]) {
+                end = mid-1; 
+            }
+            // move right half part
+            else {
+                start = mid+1;
+            }
+                
         }
-
-        return -1; // peak element not present
+       return -1; 
+    
     }
 }
