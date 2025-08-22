@@ -4,7 +4,7 @@ public class IntersectionSortedArr {
     // Function to find the intersection of two arrays
     ArrayList<Integer> intersection(int[] a, int[] b) {
         ArrayList<Integer> list = new ArrayList<>();
-        int left = 0 , right = 0 , ans = 0;
+        int left = 0 , right = 0 ;
         int n = a.length;
         int m = b.length;
         while(left < n && right < m){
@@ -13,15 +13,16 @@ public class IntersectionSortedArr {
                 left ++;
                 continue;
             }
+            // Skip the smaller
             if(a[left] < b[right]){
                 left ++;
             }
             else if(a[left] > b[right]){
                 right++;
             }
+            // Add if equal and move both
             else {
-                ans = a[left];
-                list.add(ans);
+                list.add(a[left]);
                 left ++;
                 right++;
             }
