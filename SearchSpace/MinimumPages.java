@@ -1,4 +1,4 @@
-package SearchSpace;
+
 public class MinimumPages {
     public int findPages(int[] arr, int k) {
         // code here
