@@ -1,4 +1,4 @@
-package SearchSpace;
+
 
 public class MinimumDaysFlower {
      public int minDaysBloom(int[] arr, int k, int m) {
