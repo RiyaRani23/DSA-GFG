@@ -31,3 +31,7 @@ public boolean search(int[] arr, int key) {
         return false;
     }
 }
+
+// Input: arr[] = [3, 3, 3, 1, 2, 3], key = 3
+// Output: true
+// Explanation: 3 is present in the array.
